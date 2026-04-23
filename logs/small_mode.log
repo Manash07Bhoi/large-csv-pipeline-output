@@ -1,0 +1,13 @@
+============================================================
+SMALL MODE ACTIVE
+============================================================
+Source CSV          : output/extracted_data/pornhub.com-db.csv
+Output directory    : output_small
+Rows requested      : 10000
+Rows sliced (CSV)   : 10000
+Rows in Parquet     : 10000
+Rows in SQLite      : 10000
+Rows in index.db    : 10000
+Validation          : PASS
+Elapsed (sec)       : 7.0
+============================================================
