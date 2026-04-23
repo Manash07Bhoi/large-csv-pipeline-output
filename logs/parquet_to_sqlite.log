@@ -1,0 +1,5 @@
+2026-04-23 16:29:59 | INFO    | parquet_to_sqlite | Parquet has 43 columns, 14 row groups
+2026-04-23 16:31:05 | INFO    | parquet_to_sqlite | Inserted 1307158 rows in 66.6s (19640 rows/s)
+2026-04-23 16:31:05 | WARNING | parquet_to_sqlite | Index column 'title' not in table; skipping
+2026-04-23 16:31:05 | WARNING | parquet_to_sqlite | Index column 'tags' not in table; skipping
+2026-04-23 16:31:05 | INFO    | parquet_to_sqlite | Running ANALYZE...

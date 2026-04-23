@@ -1,0 +1,14 @@
+2026-04-23 16:34:03 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:34:18 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:34:33 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:34:48 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:35:03 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:37:35 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:37:50 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:38:05 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:38:20 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:38:35 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:40:29 | INFO    | build_index | Using cached row count: 1307158
+2026-04-23 16:40:29 | WARNING | build_index | No id/title/thumbnail/category columns found; falling back to first column as id
+2026-04-23 16:40:29 | INFO    | build_index | Source rows=1307158, mapped fields: [('id', 'col_00'), ('title', 'col_01')]
+2026-04-23 16:41:37 | INFO    | build_index | Wrote /home/runner/workspace/output/index.db (1140.4 MB, 1307158 rows)

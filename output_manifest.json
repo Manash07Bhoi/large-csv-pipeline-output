@@ -1,0 +1,247 @@
+{
+  "status": "ready",
+  "ts": 1776962537,
+  "table": "videos",
+  "total_rows": 1307158,
+  "total_shards": 26,
+  "index_db_size_mb": 1140.35,
+  "database_size_mb": 5119.35,
+  "shards": [
+    {
+      "file": "videos_part_1.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        1,
+        51258
+      ]
+    },
+    {
+      "file": "videos_part_2.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        51259,
+        102516
+      ]
+    },
+    {
+      "file": "videos_part_3.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        102517,
+        153774
+      ]
+    },
+    {
+      "file": "videos_part_4.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        153775,
+        205032
+      ]
+    },
+    {
+      "file": "videos_part_5.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        205033,
+        256290
+      ]
+    },
+    {
+      "file": "videos_part_6.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        256291,
+        307548
+      ]
+    },
+    {
+      "file": "videos_part_7.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        307549,
+        358806
+      ]
+    },
+    {
+      "file": "videos_part_8.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        358807,
+        410064
+      ]
+    },
+    {
+      "file": "videos_part_9.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        410065,
+        461322
+      ]
+    },
+    {
+      "file": "videos_part_10.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        461323,
+        512580
+      ]
+    },
+    {
+      "file": "videos_part_11.db",
+      "rows": 51258,
+      "size_mb": 200.79,
+      "range": [
+        512581,
+        563838
+      ]
+    },
+    {
+      "file": "videos_part_12.db",
+      "rows": 51258,
+      "size_mb": 200.74,
+      "range": [
+        563839,
+        615096
+      ]
+    },
+    {
+      "file": "videos_part_13.db",
+      "rows": 51258,
+      "size_mb": 200.75,
+      "range": [
+        615097,
+        666354
+      ]
+    },
+    {
+      "file": "videos_part_14.db",
+      "rows": 51258,
+      "size_mb": 200.74,
+      "range": [
+        666355,
+        717612
+      ]
+    },
+    {
+      "file": "videos_part_15.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        717613,
+        768870
+      ]
+    },
+    {
+      "file": "videos_part_16.db",
+      "rows": 51258,
+      "size_mb": 200.75,
+      "range": [
+        768871,
+        820128
+      ]
+    },
+    {
+      "file": "videos_part_17.db",
+      "rows": 51258,
+      "size_mb": 200.81,
+      "range": [
+        820129,
+        871386
+      ]
+    },
+    {
+      "file": "videos_part_18.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        871387,
+        922644
+      ]
+    },
+    {
+      "file": "videos_part_19.db",
+      "rows": 51258,
+      "size_mb": 200.75,
+      "range": [
+        922645,
+        973902
+      ]
+    },
+    {
+      "file": "videos_part_20.db",
+      "rows": 51258,
+      "size_mb": 200.76,
+      "range": [
+        973903,
+        1025160
+      ]
+    },
+    {
+      "file": "videos_part_21.db",
+      "rows": 51258,
+      "size_mb": 200.74,
+      "range": [
+        1025161,
+        1076418
+      ]
+    },
+    {
+      "file": "videos_part_22.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        1076419,
+        1127676
+      ]
+    },
+    {
+      "file": "videos_part_23.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        1127677,
+        1178934
+      ]
+    },
+    {
+      "file": "videos_part_24.db",
+      "rows": 51258,
+      "size_mb": 200.73,
+      "range": [
+        1178935,
+        1230192
+      ]
+    },
+    {
+      "file": "videos_part_25.db",
+      "rows": 51258,
+      "size_mb": 200.72,
+      "range": [
+        1230193,
+        1281450
+      ]
+    },
+    {
+      "file": "videos_part_26.db",
+      "rows": 25708,
+      "size_mb": 100.68,
+      "range": [
+        1281451,
+        1307158
+      ]
+    }
+  ],
+  "id_integrity": null,
+  "errors": []
+}

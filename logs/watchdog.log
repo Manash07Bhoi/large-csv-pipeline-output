@@ -1,0 +1,153 @@
+2026-04-23 16:19:11 | INFO    | watchdog | [run ] download (attempt 1/5)
+2026-04-23 16:20:34 | INFO    | watchdog | [done] download in 83.5s
+2026-04-23 16:20:34 | INFO    | watchdog | [run ] extract (attempt 1/5)
+2026-04-23 16:21:32 | INFO    | watchdog | [done] extract in 58.1s
+2026-04-23 16:21:32 | INFO    | watchdog | [run ] csv_to_parquet (attempt 1/5)
+2026-04-23 16:29:59 | INFO    | watchdog | [done] csv_to_parquet in 506.2s
+2026-04-23 16:29:59 | INFO    | watchdog | [run ] parquet_to_sqlite (attempt 1/5)
+2026-04-23 16:31:23 | INFO    | watchdog | [done] parquet_to_sqlite in 84.4s
+2026-04-23 16:31:23 | INFO    | watchdog | [run ] validate_db (attempt 1/5)
+2026-04-23 16:31:23 | INFO    | watchdog | validate pornhub.com-db.csv -> videos parquet=1307158 db[cached]=1307158 match=True
+2026-04-23 16:31:23 | INFO    | watchdog | [done] validate_db in 0.0s
+2026-04-23 16:31:23 | INFO    | watchdog | [run ] shard_db (attempt 1/5)
+2026-04-23 16:34:03 | INFO    | watchdog | [done] shard_db in 160.3s
+2026-04-23 16:34:03 | INFO    | watchdog | [run ] build_index (attempt 1/5)
+2026-04-23 16:34:03 | ERROR   | watchdog | [fail] build_index attempt 1: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:34:03 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:34:18 | INFO    | watchdog | [run ] build_index (attempt 2/5)
+2026-04-23 16:34:18 | ERROR   | watchdog | [fail] build_index attempt 2: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:34:18 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:34:33 | INFO    | watchdog | [run ] build_index (attempt 3/5)
+2026-04-23 16:34:33 | ERROR   | watchdog | [fail] build_index attempt 3: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:34:33 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:34:48 | INFO    | watchdog | [run ] build_index (attempt 4/5)
+2026-04-23 16:34:48 | ERROR   | watchdog | [fail] build_index attempt 4: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:34:48 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:35:03 | INFO    | watchdog | [run ] build_index (attempt 5/5)
+2026-04-23 16:35:03 | ERROR   | watchdog | [fail] build_index attempt 5: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:35:03 | ERROR   | watchdog | Step build_index failed after 5 attempts; aborting.
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] download
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] extract
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] csv_to_parquet
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] parquet_to_sqlite
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] validate_db
+2026-04-23 16:37:35 | INFO    | watchdog | [skip] shard_db
+2026-04-23 16:37:35 | INFO    | watchdog | [run ] build_index (attempt 1/5)
+2026-04-23 16:37:35 | ERROR   | watchdog | [fail] build_index attempt 1: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:37:35 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:37:50 | INFO    | watchdog | [run ] build_index (attempt 2/5)
+2026-04-23 16:37:50 | ERROR   | watchdog | [fail] build_index attempt 2: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:37:50 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:38:05 | INFO    | watchdog | [run ] build_index (attempt 3/5)
+2026-04-23 16:38:05 | ERROR   | watchdog | [fail] build_index attempt 3: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:38:05 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:38:20 | INFO    | watchdog | [run ] build_index (attempt 4/5)
+2026-04-23 16:38:20 | ERROR   | watchdog | [fail] build_index attempt 4: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:38:20 | INFO    | watchdog | Backing off 15s before retry...
+2026-04-23 16:38:35 | INFO    | watchdog | [run ] build_index (attempt 5/5)
+2026-04-23 16:38:35 | ERROR   | watchdog | [fail] build_index attempt 5: None of id/title/thumbnail/category found in source
+Traceback (most recent call last):
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 54, in run_with_retries
+    fn()
+  File "/home/runner/workspace/pipeline/src/run_persistent.py", line 206, in <lambda>
+    steps.append(("build_index", lambda: build_index(
+                                         ^^^^^^^^^^^^
+  File "/home/runner/workspace/pipeline/src/build_index.py", line 77, in build_index
+    raise RuntimeError("None of id/title/thumbnail/category found in source")
+RuntimeError: None of id/title/thumbnail/category found in source
+2026-04-23 16:38:35 | ERROR   | watchdog | Step build_index failed after 5 attempts; aborting.
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] download
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] extract
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] csv_to_parquet
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] parquet_to_sqlite
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] validate_db
+2026-04-23 16:40:29 | INFO    | watchdog | [skip] shard_db
+2026-04-23 16:40:29 | INFO    | watchdog | [run ] build_index (attempt 1/5)
+2026-04-23 16:41:37 | INFO    | watchdog | [done] build_index in 67.6s
+2026-04-23 16:41:37 | INFO    | watchdog | [run ] finalize (attempt 1/5)
+2026-04-23 16:42:17 | INFO    | watchdog | ============================================================
+2026-04-23 16:42:17 | INFO    | watchdog | PIPELINE COMPLETE — DATA READY FOR APP
+2026-04-23 16:42:17 | INFO    | watchdog | ============================================================
+2026-04-23 16:42:17 | INFO    | watchdog | [done] finalize in 40.8s
+2026-04-23 16:42:17 | INFO    | watchdog | Pipeline complete in 108.3s.

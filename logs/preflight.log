@@ -1,0 +1,6 @@
+2026-04-23 16:19:11 | INFO    | preflight | Required binaries present: curl
+2026-04-23 16:19:11 | INFO    | preflight | Disk free at /home/runner/workspace/output: 250.0 GB (require 25 GB)
+2026-04-23 16:37:35 | INFO    | preflight | Required binaries present: curl
+2026-04-23 16:37:35 | INFO    | preflight | Disk free at /home/runner/workspace/output: 220.9 GB (require 25 GB)
+2026-04-23 16:40:29 | INFO    | preflight | Required binaries present: curl
+2026-04-23 16:40:29 | INFO    | preflight | Disk free at /home/runner/workspace/output: 220.9 GB (require 25 GB)

@@ -1,0 +1,510 @@
+{
+  "ts": 1776962497.1016276,
+  "workdir": "/home/runner/workspace/output",
+  "checks": [
+    {
+      "name": "csv_eq_parquet[pornhub.com-db.csv]",
+      "ok": true,
+      "csv_rows": 1307158,
+      "parquet_rows": 1307158
+    },
+    {
+      "name": "parquet_eq_sqlite",
+      "ok": true,
+      "parquet_total": 1307158,
+      "sqlite_rows": 1307158
+    },
+    {
+      "name": "shard_open[videos_part_1.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_1.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_1.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_2.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_2.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_2.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_3.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_3.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_3.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_4.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_4.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_4.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_5.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_5.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_5.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_6.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_6.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_6.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_7.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_7.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_7.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_8.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_8.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_8.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_9.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_9.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_9.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_10.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_10.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_10.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_11.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.79
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_11.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_11.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_12.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.74
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_12.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_12.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_13.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.75
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_13.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_13.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_14.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.74
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_14.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_14.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_15.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_15.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_15.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_16.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.75
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_16.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_16.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_17.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.81
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_17.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_17.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_18.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_18.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_18.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_19.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.75
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_19.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_19.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_20.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.76
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_20.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_20.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_21.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.74
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_21.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_21.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_22.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_22.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_22.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_23.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_23.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_23.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_24.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.73
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_24.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_24.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_25.db]",
+      "ok": true,
+      "rows": 51258,
+      "size_mb": 200.72
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_25.db]",
+      "ok": true,
+      "shard": 51258,
+      "map": 51258
+    },
+    {
+      "name": "shard_indexes[videos_part_25.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "shard_open[videos_part_26.db]",
+      "ok": true,
+      "rows": 25708,
+      "size_mb": 100.68
+    },
+    {
+      "name": "shard_count_eq_map[videos_part_26.db]",
+      "ok": true,
+      "shard": 25708,
+      "map": 25708
+    },
+    {
+      "name": "shard_indexes[videos_part_26.db]",
+      "ok": true,
+      "have": [],
+      "want_for": []
+    },
+    {
+      "name": "sum_shards_eq_sqlite",
+      "ok": true,
+      "shards_total": 1307158,
+      "sqlite_rows": 1307158
+    },
+    {
+      "name": "csv_eq_sum_shards",
+      "ok": true,
+      "csv_total": 1307158,
+      "shards_total": 1307158
+    },
+    {
+      "name": "index_eq_source",
+      "ok": true,
+      "index_rows": 1307158,
+      "source_rows": 1307158
+    },
+    {
+      "name": "index_no_null_titles",
+      "ok": true,
+      "null_titles": 0
+    }
+  ],
+  "errors": []
+}
